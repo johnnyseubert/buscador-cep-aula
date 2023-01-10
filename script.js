@@ -18,4 +18,6 @@ async function buscarDadosCep(event) {
    document.getElementById('bairro').value = data.bairro;
    document.getElementById('localidade').value = data.localidade;
    document.getElementById('uf').value = data.uf;
+
+   loading.style.display = 'none';
 }
